@@ -7,6 +7,10 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 Song.create([
-    {title: 'I want it that way', artist: 'Backstreet Boys'},
-    {title: 'Blinding Lights', artist: 'The Weeknd'}
+    {title: 'I want it that way', artist: 'Backstreet Boys', playlist_id: 1},
+    {title: 'Blinding Lights', artist: 'The Weeknd', playlist_id: 1}
+])
+
+Playlist.create([
+    {name: 'Playlist 1'}
 ])
